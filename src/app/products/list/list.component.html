@@ -1,0 +1,38 @@
+<div class="container">
+  <div *ngFor="let item of [2,2]" class="card">
+    <img style="height: 100px" src="assets/iphone_11_pro_1-removebg-preview.png">
+    <h2 style="color:white;margin-top:3px"> iphone 11</h2>
+    <h2 style="color:white;margin-top:5px"> 500 $</h2>
+    <button> payer</button>
+  </div>
+
+
+  <div
+    style="border : 1px solid #eeeeee; border-radius:10px;padding : 20px; display: flex;flex-direction: column;align-items: center;justify-content: center;color:white ;gap:30px">
+    <div>
+      <label>nom du produit</label>
+      <select>
+        <option value="iphone11">iPhone 11</option>
+        <option value="samsungs20">Samsung S20</option>
+        <option value="googlepixel4">Google Pixel 4</option>
+
+      </select>
+    </div>
+    <div>
+      <label>prix du produit</label>
+      <select>
+        <option value="100">$100</option>
+        <option value="200">$200</option>
+        <option value="300">$300</option>
+      </select>
+
+    </div>
+    <div>
+      <label>categorie du produit</label>
+      <select>
+        <option value="electronics">Electronique</option>
+        <option value="clothing">Vêtements</option>
+        <option value="beauty">Beauté</option>
+      </select>
+    </div>
+  </div>

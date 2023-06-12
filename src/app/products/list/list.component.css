@@ -1,0 +1,37 @@
+.container{
+    background:#081b29;
+    display:flex;
+    height: 100%;
+    padding:100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:30px
+}
+
+
+.card{
+    border: 1px solid #414344;
+    height:250px;
+    width:250px;
+    border-radius: 10px;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+button{
+    background: transparent;
+    border: 1px solid #01abf0;
+    border-radius:7px;
+    padding:5px 25px;
+    color:white
+}
+
+
+.card > button:hover{
+    background: #01abf0;
+    border: 1px solid ;
+    color:black
+}
